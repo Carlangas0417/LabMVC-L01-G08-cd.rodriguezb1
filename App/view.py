@@ -106,7 +106,7 @@ if __name__ == "__main__":
             tags = loadTags(control)
             print("Total de tags cargados: " + str(tags) + "\n")
 
-        # TODO: Mods Lab 1, agregar la funcion opt 3 -> ladBookTags().
+        #: Mods Lab 1, agregar la funcion opt 3 -> ladBookTags().
         elif int(inputs[0]) == 3:
             print("Cargando informacion de libros con tags...")
             books_tags = loadBooksTags(control)

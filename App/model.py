@@ -100,7 +100,7 @@ def createTagList(catalog):
     catalog.update({"tags": tags})
     return catalog
 
-
+# TODO
 def addBookTags(catalog, booktagsfile):
     """
     Esta funcion crea una lista basado en el archivo de booktags. siga

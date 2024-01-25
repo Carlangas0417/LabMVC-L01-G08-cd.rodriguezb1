@@ -79,7 +79,7 @@ def loadTags(control, filename):
     else:
         return model.tagSize(catalog)
 
-
+# TODO
 def loadBooksTags(control, filename):
     """
     Carga los tags de los libros del archivo y los agrega a la lista
